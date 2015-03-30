@@ -1,0 +1,7 @@
+{application, erlmongo, [{description, "Erlang driver for mongodb"},
+						{vsn, "0.1"},
+						{registered, [mongodb, mongodb_supervisor]},
+						{applications, [kernel, stdlib]},
+						{mod, {erlmongo_app, []}},
+						{start_phases, []}
+						]}.
